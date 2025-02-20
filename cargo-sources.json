@@ -2216,6 +2216,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/enumn/enumn-0.1.14.crate",
+        "sha256": "2f9ed6b3789237c8a0c1c505af1c7eb2c560df6186f01b098c3a1064ea532f38",
+        "dest": "cargo/vendor/enumn-0.1.14"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"2f9ed6b3789237c8a0c1c505af1c7eb2c560df6186f01b098c3a1064ea532f38\", \"files\": {}}",
+        "dest": "cargo/vendor/enumn-0.1.14",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/epaint/epaint-0.27.2.crate",
         "sha256": "b381f8b149657a4acf837095351839f32cd5c4aec1817fc4df84e18d76334176",
         "dest": "cargo/vendor/epaint-0.27.2"
@@ -3659,6 +3672,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/markdown/markdown-0.3.0.crate",
+        "sha256": "ef3aab6a1d529b112695f72beec5ee80e729cb45af58663ec902c8fac764ecdd",
+        "dest": "cargo/vendor/markdown-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"ef3aab6a1d529b112695f72beec5ee80e729cb45af58663ec902c8fac764ecdd\", \"files\": {}}",
+        "dest": "cargo/vendor/markdown-0.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/matrixmultiply/matrixmultiply-0.2.4.crate",
         "sha256": "916806ba0031cd542105d916a97c8572e1fa6dd79c9c51e7eb43a09ec2dd84c1",
         "dest": "cargo/vendor/matrixmultiply-0.2.4"
@@ -4694,6 +4720,19 @@
         "type": "inline",
         "contents": "{\"package\": \"8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184\", \"files\": {}}",
         "dest": "cargo/vendor/pin-utils-0.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/pipeline/pipeline-0.5.0.crate",
+        "sha256": "d15b6607fa632996eb8a17c9041cb6071cb75ac057abd45dece578723ea8c7c0",
+        "dest": "cargo/vendor/pipeline-0.5.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"d15b6607fa632996eb8a17c9041cb6071cb75ac057abd45dece578723ea8c7c0\", \"files\": {}}",
+        "dest": "cargo/vendor/pipeline-0.5.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
