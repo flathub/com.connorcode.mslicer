@@ -4,9 +4,7 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "24.08",
   "sdk": "org.freedesktop.Sdk",
-  "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.rust-stable"
-  ],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "mslicer",
   "finish-args": [
     "--socket=wayland",
@@ -36,7 +34,7 @@
         {
           "type": "git",
           "url": "https://github.com/connorslade/mslicer",
-          "commit": "9521ed18c145837f295ada900fe79318a4294721"
+          "tag": "0.3.0"
         },
         "cargo-sources.json"
       ]
