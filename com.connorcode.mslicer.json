@@ -26,16 +26,15 @@
         "cargo --offline fetch --manifest-path Cargo.toml",
         "cargo --offline build -r -p mslicer",
         "install -Dm 755 target/release/mslicer -t /app/bin",
-        "install -Dm 644 dist/com.connorcode.mslicer.desktop -t /app/share/applications",
-        "install -Dm 644 dist/com.connorcode.mslicer.metainfo.xml -t /app/share/metainfo",
+        "install -Dm 644 dist/flatpak/com.connorcode.mslicer.desktop -t /app/share/applications",
+        "install -Dm 644 dist/flatpak/com.connorcode.mslicer.metainfo.xml -t /app/share/metainfo",
         "install -Dm 644 dist/icon.png /app/share/icons/hicolor/512x512/apps/com.connorcode.mslicer.png"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/connorslade/mslicer",
-          "tag": "0.5.0",
-          "commit": "e3686d9757c1f50cd25104a1414ca66164185d94"
+          "commit": "30c84920e8e12b89665a63bf400577c701a77f82"
         },
         "cargo-sources.json"
       ]
