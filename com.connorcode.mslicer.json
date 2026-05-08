@@ -34,7 +34,7 @@
         {
           "type": "git",
           "url": "https://github.com/connorslade/mslicer",
-          "commit": "30c84920e8e12b89665a63bf400577c701a77f82"
+          "commit": "5572080dbb2083a5b88b36a9f9e16bcae29efb2a"
         },
         "cargo-sources.json"
       ]
