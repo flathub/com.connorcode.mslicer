@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/flatpak/flatpak-builder/main/data/flatpak-manifest.schema.json",
   "id": "com.connorcode.mslicer",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "24.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "mslicer",
@@ -10,7 +10,9 @@
     "--socket=wayland",
     "--socket=fallback-x11",
     "--device=dri",
-    "--share=ipc"
+    "--share=ipc",
+    "--share=network",
+    "--filesystem=/run/spnav.sock"
   ],
   "modules": [
     {
@@ -28,14 +30,14 @@
         "install -Dm 755 target/release/mslicer -t /app/bin",
         "install -Dm 644 dist/flatpak/com.connorcode.mslicer.desktop -t /app/share/applications",
         "install -Dm 644 dist/flatpak/com.connorcode.mslicer.metainfo.xml -t /app/share/metainfo",
+        "install -Dm 644 dist/flatpak/com.connorcode.mslicer-mime.xml -t /app/share/mime/packages",
         "install -Dm 644 dist/icon.png /app/share/icons/hicolor/512x512/apps/com.connorcode.mslicer.png"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/connorslade/mslicer",
-          "commit": "32f8ac076b1660cc85f6815cd2e202ba70e3743e",
-          "tag": "0.8.0"
+          "commit": "1165c14f34303a50262d4da3b07f99cdec6048e1"
         },
         "cargo-sources.json"
       ]
