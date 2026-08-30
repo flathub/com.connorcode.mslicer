@@ -12,7 +12,12 @@
     "--device=dri",
     "--share=ipc",
     "--share=network",
-    "--filesystem=/run/spnav.sock"
+    "--filesystem=/run/spnav.sock",
+    "--filesystem=xdg-documents",
+    "--filesystem=xdg-download",
+    "--filesystem=xdg-desktop",
+    "--filesystem=/media",
+    "--filesystem=/run/media"
   ],
   "modules": [
     {
@@ -37,7 +42,7 @@
         {
           "type": "git",
           "url": "https://github.com/connorslade/mslicer",
-          "commit": "ad45c42308344be52dd0a64b9bed063528c28856"
+          "commit": "19abc4a6b7ff85f8fc8bb2bf2fd72c0fd8b02167"
         },
         "cargo-sources.json"
       ]
